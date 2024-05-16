@@ -1,0 +1,39 @@
+<ion-content class="ion-padding">
+  <div class="d-flex-center">
+    <form class="auth-form">
+      <ion-icon
+        class="shield-icono"
+        style="color: #616161"
+        name="shield-outline"
+      ></ion-icon>
+
+      <ion-text style="color: #616161">
+        <h1>Compañia XD</h1>
+      </ion-text>
+
+      <ion-text style="text-align: left; color: #616161">
+        <h1>Iniciar sesión</h1>
+        <p>¡Hola! ¡Qué bueno verte de nuevo!</p>
+      </ion-text>
+
+      <ion-item>
+        <ion-input
+          label="Correo eléctronico"
+          labelPlacement="stacked"
+          placeholder="example@email.com"
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input label="Contraseña" labelPlacement="stacked" type="password">
+          <ion-input-password-toggle slot="end"></ion-input-password-toggle>
+        </ion-input>
+      </ion-item>
+
+      <ion-button expand="full" routerLink="/home">Iniciar sesión</ion-button
+      >
+      <ion-button expand="full" fill="outline" routerLink="/register">Registrarse</ion-button
+      >
+    </form>
+  </div>
+</ion-content>

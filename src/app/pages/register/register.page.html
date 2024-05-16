@@ -1,0 +1,33 @@
+<ion-content class="ion-padding">
+  <form class="auth-form">
+    <ion-text style="text-align: left; color: #616161">
+      <h1>Registra una cuenta</h1>
+    </ion-text>
+
+    <ion-item>
+      <ion-input
+        label="Nombre"
+        labelPlacement="stacked"
+        placeholder="Nombre completo"
+      ></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input
+        label="Correo"
+        labelPlacement="stacked"
+        placeholder="Tu correo elétronico"
+      ></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input label="Contraseña" labelPlacement="stacked" type="password">
+        <ion-input-password-toggle slot="end"></ion-input-password-toggle>
+      </ion-input>
+    </ion-item>
+    
+    <ion-button expand="full" type="submit" routerLink="/home"
+      >Continuar</ion-button
+    >
+  </form>
+</ion-content>
