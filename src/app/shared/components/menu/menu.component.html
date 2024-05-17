@@ -13,25 +13,25 @@
 
     <!-- Botones del menú -->
     <ion-list class="listaMenu">
-      <ion-item class="menu-item menu-inicio" button routerLink="/inicio">
+      <ion-item class="menu-item menu-inicio" button href="/home">
         <ion-icon name="home-outline" slot="start"></ion-icon>
         <ion-label>Inicio</ion-label>
         <ion-icon name="chevron-forward-outline" slot="end"></ion-icon>
       </ion-item>
 
-      <ion-item class="menu-item menu-usuarios" button routerLink="/usuarios">
+      <ion-item class="menu-item menu-usuarios" button>
         <ion-icon name="person-outline" slot="start"></ion-icon>
         <ion-label>Usuarios</ion-label>
         <ion-icon name="chevron-forward-outline" slot="end"></ion-icon>
       </ion-item>
 
-      <ion-item class="menu-item menu-clientes" button routerLink="/clientes">
+      <ion-item class="menu-item menu-clientes" button href="/clientes">
         <ion-icon name="people-outline" slot="start"></ion-icon>
         <ion-label>Clientes</ion-label>
         <ion-icon name="chevron-forward-outline" slot="end"></ion-icon>
       </ion-item>
 
-      <ion-item class="menu-item menu-configuracion" button routerLink="/configuracion">
+      <ion-item class="menu-item menu-configuracion" button style="margin-top: 50%;">
         <ion-icon name="settings-outline" slot="start"></ion-icon>
         <ion-label>Configuración</ion-label>
         <ion-icon name="chevron-forward-outline" slot="end"></ion-icon>
@@ -49,7 +49,5 @@
       </ion-buttons>
     </ion-toolbar>
   </ion-header>
-  <ion-content class="ion-padding">
-    Tap the button in the toolbar to open the menu.
-  </ion-content>
+
 </div>

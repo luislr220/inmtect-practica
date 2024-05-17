@@ -1,0 +1,38 @@
+.segmento-clientes {
+    --background: #ffffff;
+    --color: #616161;
+    text-transform: uppercase;
+    font-weight: 100;
+  }
+  
+  .barra-busqueda-clientes {
+    margin: 10px;
+    --background: #f8f9fa;
+    --placeholder-color: #8e8e8e;
+    color: black;
+  }
+  
+  .lista-clientes {
+    background-color: #fff;
+    padding: 0 10px;
+  }
+  
+  .item-cliente {
+    --background: #fff;
+    --padding-start: 10px;
+    --padding-end: 10px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .item-cliente:nth-child(even) {
+    --background: #f8f9fa;
+  }
+  
+  ion-item {
+    --color: #333;
+  }
+  
+  ion-item:hover {
+    --background: #e0e0e0;
+  }
+  
