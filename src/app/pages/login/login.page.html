@@ -4,14 +4,14 @@
       <ion-icon
         class="shield-icono"
         style="color: #616161"
-        name="shield-outline"
+        name="cloud-outline"
       ></ion-icon>
 
-      <ion-text style="color: #616161">
+      <ion-text class="company-title">
         <h1>Compañia XD</h1>
       </ion-text>
 
-      <ion-text style="text-align: left; color: #616161">
+      <ion-text class="login-header">
         <h1>Iniciar sesión</h1>
         <p>¡Hola! ¡Qué bueno verte de nuevo!</p>
       </ion-text>
@@ -30,10 +30,33 @@
         </ion-input>
       </ion-item>
 
-      <ion-button expand="full" routerLink="/home">Iniciar sesión</ion-button
+      <ion-button expand="full" routerLink="/home">Iniciar sesión</ion-button>
+      <ion-button expand="full" fill="outline" routerLink="/register"
+        >Registrarse</ion-button
       >
-      <ion-button expand="full" fill="outline" routerLink="/register">Registrarse</ion-button
-      >
+
+      <ion-text class="center-text">
+        <p>O usa uno de tus perfiles</p>
+      </ion-text>
+
+      <div class="social-buttons">
+        <ion-button
+          class="social-button google"
+          fill="outline"
+          routerLink="/register"
+          >Google</ion-button
+        >
+        <ion-button
+          class="social-button facebook"
+          fill="outline"
+          routerLink="/register"
+          >Facebook</ion-button
+        >
+      </div>
+
+      <ion-text class="forgot-password">
+        <p>¿Olvidaste tu contraseña?</p>
+      </ion-text>
     </form>
   </div>
 </ion-content>

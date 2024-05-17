@@ -1,0 +1,40 @@
+.ContentMenuUsuario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  margin-top: 10%;
+  align-items: center;
+  gap: 16px; /* Espaciado entre el avatar y el texto */
+}
+
+.textMenu {
+  color: #616161;
+}
+
+/* Estilos para los ítems del menú */
+.menu-item {
+  --ion-item-background: transparent;
+  --inner-padding-end: 0;
+  --padding-start: 16px;
+  --padding-end: 16px;
+  --inner-padding-start: 16px;
+}
+
+.menu-item:hover {
+  background-color: #f0f0f0;
+}
+
+.listaMenu {
+  background-color: white;
+}
+
+.menu-item ion-icon {
+  color: #616161;
+}

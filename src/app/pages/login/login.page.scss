@@ -1,0 +1,38 @@
+.company-title,
+.login-header,
+.center-text,
+.forgot-password {
+  color: #616161;
+}
+
+.login-header {
+  text-align: left;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.forgot-password {
+  text-align: left;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-button {
+  border-color: #616161;
+}
+
+.social-button.google:hover {
+  background-color: #4285F4; /* Color de fondo al pasar el cursor */
+  color: white; /* Color del texto al pasar el cursor */
+}
+
+.social-button.facebook:hover {
+  background-color: #3b5998; /* Color de fondo al pasar el cursor */
+  color: white; /* Color del texto al pasar el cursor */
+}

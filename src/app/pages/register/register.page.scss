@@ -1,0 +1,24 @@
+.login-header {
+  color: #616161;
+  text-align: left;
+}
+
+.center-text{
+  color: #616161;
+}
+
+ion-item[lines="none"] {
+  --inner-padding-end: 0;
+  --inner-padding-start: 0;
+  --padding-start: 0;
+  --padding-end: 0;
+}
+
+ion-checkbox {
+  margin-right: 8px; /* Espaciado entre el checkbox y el texto */
+}
+
+ion-label a {
+  color: var(--ion-color-primary); /* Color de los enlaces */
+  text-decoration: underline;
+}
