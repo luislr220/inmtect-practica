@@ -1,5 +1,5 @@
 <ion-header >
-  <ion-toolbar >
+  <ion-toolbar style="background-color: white;">
     
     <ion-segment [(ngModel)]="segmentoSeleccionado" class="segmento-clientes" >
 
@@ -11,13 +11,18 @@
         Administrar clientes
       </ion-segment-button>
 
-      <ion-segment-button>
-          <ion-icon name="add-outline" style="color: black; font-size: 7vw;"></ion-icon>
-      </ion-segment-button>
     </ion-segment>
+
+    <ion-buttons slot="end">
+      <ion-button fill="clear" class="btnAgregar">
+        <ion-icon name="add"></ion-icon>
+      </ion-button>
+    </ion-buttons>
     
   </ion-toolbar>
+  
 </ion-header>
+
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
